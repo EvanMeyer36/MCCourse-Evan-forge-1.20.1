@@ -1,0 +1,7 @@
+Java Launcher: /Users/emeyer/Library/Java/JavaVirtualMachines/openjdk-17.0.2/Contents/Home/bin/java
+Arguments: '--inJar, /Users/emeyer/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.3.22/forge-1.20.1-47.3.22-injected.jar, --outJar, /Users/emeyer/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.3.22_mapped_parchment_2023.09.03-1.20.1/forge-1.20.1-47.3.22_mapped_parchment_2023.09.03-1.20.1.jar, --logFile, accesstransform.log, --atFile, /Users/emeyer/Downloads/forge-1.20.1-47.3.22-mdk/build/_atJar_4/parent_at.cfg'
+Classpath:
+ - /Users/emeyer/.gradle/caches/forge_gradle/maven_downloader/net/minecraftforge/accesstransformers/8.2.1/accesstransformers-8.2.1-fatjar.jar
+Working directory: /Users/emeyer/Downloads/forge-1.20.1-47.3.22-mdk/build/_atJar_4
+Main class: net.minecraftforge.accesstransformer.TransformerProcessor
+====================================

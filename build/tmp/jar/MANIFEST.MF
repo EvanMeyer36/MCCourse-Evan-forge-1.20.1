@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Specification-Title: mccourse
+Specification-Vendor: YourNameHere, OtherNameHere
+Specification-Version: 1
+Implementation-Title: forge-1.20.1-47.3.22-mdk
+Implementation-Version: 1.0.0
+Implementation-Vendor: YourNameHere, OtherNameHere
+Implementation-Timestamp: 2025-01-03T13:10:14-0500
+
