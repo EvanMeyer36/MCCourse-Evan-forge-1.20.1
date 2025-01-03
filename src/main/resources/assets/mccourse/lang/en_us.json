@@ -1,4 +1,11 @@
 {
   "item.mccourse.evannite": "Evannite",
-  "item.mccourse.raw_evannite": "Raw Evannite"
+  "item.mccourse.raw_evannite": "Raw Evannite",
+  "block.mccourse.evannite_block": "Block of Evannite",
+  "block.mccourse.evannite_ore": "Evannite Ore",
+  "block.mccourse.nether_evannite_ore": "Nether Evannite Ore",
+  "block.mccourse.deepslate_evannite_ore": "DeepSlate Evannite Ore",
+  "block.mccourse.end_stone_evannite_ore": "End Stone Evannite Ore",
+  "block.mccourse.raw_evannite_block": "Block of Raw Evannite",
+  "creativetab.course_tab": "Course Tab"
 }

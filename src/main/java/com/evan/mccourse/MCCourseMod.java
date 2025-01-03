@@ -1,5 +1,7 @@
 package com.evan.mccourse;
 
+import com.evan.mccourse.block.ModBlocks;
+import com.evan.mccourse.item.ModCreativeModeTabs;
 import com.evan.mccourse.item.ModItems;
 import com.mojang.logging.LogUtils;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -27,7 +29,9 @@ public class MCCourseMod
     public MCCourseMod()
     {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+        ModCreativeModeTabs.register(modEventBus);
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
 
@@ -49,6 +53,13 @@ public class MCCourseMod
         if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS)
             event.accept(ModItems.EVANNITE);
             event.accept(ModItems.RAW_EVANNITE);
+        if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS)
+            event.accept(ModBlocks.EVANNITE_BLOCK);
+            event.accept(ModBlocks.RAW_EVANNITE_BLOCK);
+            event.accept(ModBlocks.DEEPSLATE_EVANNITE_ORE);
+        event.accept(ModBlocks.EVANNITE_ORE);
+        event.accept(ModBlocks.NETHER_EVANNITE_ORE);
+        event.accept(ModBlocks.END_STONE_EVANNITE_ORE);
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call
